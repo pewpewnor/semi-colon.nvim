@@ -4,7 +4,7 @@ local M = {}
 
 function M.init()
     require("nvim-treesitter").define_modules({
-        semi_colon = {
+        auto_semi_colon = {
             -- the file with the "main-code" of the module
             module_path = "tree-setter.main",
 
